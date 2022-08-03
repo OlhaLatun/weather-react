@@ -61,6 +61,11 @@ function App() {
         <button>Search</button>
       </form>
       {city ? renderTemp() : null}
+
+      <p>
+        Source code is here{" "}
+        <a href="https://github.com/OlhaLatun/weather-react">Github</a>
+      </p>
     </div>
   );
 }
