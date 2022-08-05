@@ -25,7 +25,7 @@ export default function SearchBar({ getData }) {
           .catch((err) => console.log(err));
       }
     }
-  }, [city]);
+  }, [city, getData]);
 
   function handleSubmit(e) {
     e.preventDefault();
