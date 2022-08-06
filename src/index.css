@@ -120,14 +120,14 @@ body {
   width: 70px;
 }
 
-.week-forecast .day .morning {
+.week-forecast .day .max {
   font-weight: 600;
 }
 
 .footer {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 
 .unit {
@@ -144,4 +144,9 @@ body {
 
 .unit-disabled {
   pointer-events: none;
+}
+
+.wrapper {
+  padding: 20px 0;
+  text-align: center;
 }
